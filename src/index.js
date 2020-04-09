@@ -3,7 +3,7 @@ const express = require("express");
 
 // import other
 const morgan = require("morgan"); // midleware
-const path = require("path");
+const path = require("path"); 
 const { mongoose } = require("./database"); // bring the database
 
 //execute express
